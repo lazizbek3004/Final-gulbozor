@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#app {
+	height: 100%;
+  }
+  html,
+  body {
+	position: relative;
+	height: 100%;
+  }
+  
+  body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .swiper {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+  
+	/* Center slide text vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  } */
+  .swiper-pagination-bullet {
+	background-color: rgba(70, 163, 88, 0.3); 
+	width: 8px; 
+	height: 8px;
+	border-radius: 50%; 
+  }
+  
+  .swiper-pagination-bullet-active { 
+	background-color: rgb(70, 163, 88); 
+  }
+.custom-linear-gradient {
+	background: linear-gradient(134.56deg, rgba(245, 245, 245, 0.5) -23.457%, rgba(245, 245, 245, 0.5) 107.508%);
+  }
+  .bigImage{
+	width: 40px;
+  }
+  .justText{
+	width: 100%;
+	font-size: 62px;
+	font-weight: 900;
+	line-height: 70px;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase; 
+	color: rgb(61, 61, 61);
+	span{
+		color: rgb(70, 163, 88);
+	}
+  }
+  .custom-linear-gradient2{
+	background: linear-gradient(180.00deg, rgba(70, 163, 88, 0.1),rgba(70, 163, 88, 0.03) 100%);
+  }
+  .custom-range::-webkit-slider-runnable-track {
+	background: #ccc; 
+  }
+  .for-hover:hover{
+		background-color: rgb(70, 163, 88);
+	img {
+		filter: invert(0.5) hue-rotate(180deg);
+	  }
+  }
+
+	option{
+		background-color: green;
+	}
+	
+  
